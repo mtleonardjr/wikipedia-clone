@@ -1,4 +1,5 @@
 import './App.css';
+import Banner from'./components/Banner'
 
 function App() {
   return (
@@ -8,7 +9,7 @@ function App() {
         <div className='header'>Header</div>
         <div className='body-container'>
           <div className='grid'>
-            <div className='grid-item-1'>grid-item-1</div>
+            <div className='grid-item-1'><Banner /></div>
             <div className='grid-item-2'>grid-item-2</div>
             <div className='grid-item-3'>grid-item-3</div>
             <div className='grid-item-4'>grid-item-4</div>
