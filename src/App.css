@@ -5,7 +5,11 @@
   border: 1px solid black;
 }
 
-.app {
+.app-container {
+  display: flex;
+}
+.main-container {
+  flex-grow: 1;
   display: flex;
   flex-direction: column;
 }
@@ -14,15 +18,10 @@
   min-height: 5em;
 }
 
-.main-container {
+.body-container {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-}
-
-.main-body {
-  flex-grow: 1;
-  display: flex;
   height: 100vh;
 }
 
@@ -61,4 +60,12 @@
 
 .footer {
   min-height: 10em;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 650px) {
+  .sidebar {
+    display: none;
+  }
 }
