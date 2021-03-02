@@ -1,13 +1,14 @@
 import './App.css';
 import Banner from'./components/Banner'
 import Sidebar from './components/Sidebar'
+import Header from './components/Header'
 
 function App() {
   return (
     <div className='app-container'>
       <Sidebar />
       <div className="main-container">
-        <div className='header'>Header</div>
+        <Header />
         <div className='body-container'>
           <div className='grid'>
             <div className='grid-item-1'><Banner /></div>
