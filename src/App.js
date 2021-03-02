@@ -1,10 +1,11 @@
 import './App.css';
 import Banner from'./components/Banner'
+import Sidebar from './components/Sidebar'
 
 function App() {
   return (
     <div className='app-container'>
-      <div className='sidebar'>sidebar</div>
+      <Sidebar />
       <div className="main-container">
         <div className='header'>Header</div>
         <div className='body-container'>
@@ -16,8 +17,8 @@ function App() {
             <div className='grid-item-5'>grid-item-5</div>
             <div className='grid-item-6'>grid-item-6</div>
           </div>
-          <div className='footer'>Footer</div>
         </div>
+        <div className='footer'>Footer</div>
       </div>
     </div>
   );

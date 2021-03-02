@@ -1,8 +1,9 @@
 .banner-container {
   display: flex;
-  border: 1px solid black;
+  border: 1px solid #ddd;
   padding: 0.25em;
-  margin: 0.25em;
+  margin: 1em 1em 0.25em 1em;
+  background-color: #f6f6f6;
 }
 
 .banner-main {
@@ -26,14 +27,8 @@ h2 {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-  color: black;
+.banner-list a {
   margin: 0.25em;
-}
-
-a:hover {
-  border-bottom: 1px solid black;
 }
 
 /* Media Query */
