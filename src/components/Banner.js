@@ -5,9 +5,9 @@ const Banner = () => {
     return (
         <div className='banner-container'>
             <div className='banner-main'>
-                <h2>Welcome to Wikipedia</h2>
-                <p>the free encyclopedia that anyone can edit.</p>
-                <p>6,261,218 articles in English</p>
+                <h3>Welcome to <a href="#home">Wikipedia</a>,</h3>
+                <p>the <a href="#home">free encyclopedia</a> that <a href="#home">anyone can edit</a>.</p>
+                <p><a href="#home">6,261,218</a> articles in <a href="#home">English</a></p>
             </div>
 
             <div className="invs-block"></div>

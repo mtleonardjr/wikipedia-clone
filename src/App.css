@@ -24,7 +24,9 @@
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  border: 1px solid #a7d7f9;
+  border-bottom: 1px solid #a7d7f9;
+  border-left: 1px solid #a7d7f9;
+  border-right: 1px solid #a7d7f9;
   background-color: #ffffff;
 }
 
@@ -65,9 +67,13 @@ a {
   color: #0645ad;
 }
 
-a:hover {
-  border-bottom: 1px solid #0645ad;
+.invs-block {
+  flex: 1;
 }
+
+/* a:hover {
+  border-bottom: 1px solid #0645ad;
+} */
 
 /* Media Query */
 

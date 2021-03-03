@@ -9,11 +9,9 @@
 .banner-main {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-}
-
-.invs-block {
-  flex: 1;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0 1.5em 0 1.5em;
 }
 
 .banner-list {
@@ -21,9 +19,13 @@
   column-count: 3;
   margin: 1em;
 }
-
-p,
-h2 {
+.banner-main h3 {
+  text-align: center;
+  margin-top: 0.5em;
+}
+.banner-main p {
+  margin-bottom: 0;
+  font-size: 0.85em;
   text-align: center;
 }
 
