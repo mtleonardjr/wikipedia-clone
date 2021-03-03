@@ -1,11 +1,12 @@
 import React from 'react'
 import './styles/header.css'
+import mobileLogo from '../mobile-logo.svg'
 
 const Header = () => {
     return (
         <div className='header'>
             <ul className='login-list'>
-                <li><i class="glyphicon glyphicon-user"></i>Not logged in</li>
+                <li><i className="glyphicon glyphicon-user"></i>Not logged in</li>
                 <li><a href="#home">Talk</a></li>
                 <li><a href="#home">Contributions</a></li>
                 <li><a href="#home">Create account</a></li>
@@ -24,7 +25,12 @@ const Header = () => {
                     </form>
                 </li>
             </ul>
-            <div className='mobile-menu'>mobile-menu</div>
+            <div className='mobile-menu'>
+                <button className='mobile-menu-button'><i className="glyphicon glyphicon-menu-hamburger"></i></button>
+                <button className='mobile-menu-button'><img className='mobile-logo' src={mobileLogo} width="125" height="50" alt="logo"/></button>
+                <div className='invs-block'></div>
+                <button className='mobile-menu-button'><i class="glyphicon glyphicon-search"></i></button>
+            </div>
         </div>
     )
 }
