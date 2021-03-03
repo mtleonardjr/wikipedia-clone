@@ -14,11 +14,15 @@ const Header = () => {
             <ul className='header-menu'>
                 <li className='selected-menu-item'><a href="#home">Main Page</a></li>
                 <li className='unselected-menu-item'><a href="#home">Talk</a></li>
-                <li className='invs-block'></li>
+                <li className='invs-menu-item'></li>
                 <li className='selected-menu-item'><a href="#home">Read</a></li>
                 <li className='unselected-menu-item'><a href="#home">View source</a></li>
                 <li className='unselected-menu-item'><a href="#home">View history</a></li>
-                <li className='unselected-menu-item'><input type='text'></input><button>search</button></li>
+                <li className='unselected-menu-item'>
+                    <form className='input-menu-item'>
+                        <input type='text'></input><button className='input-menu-button'><i class="glyphicon glyphicon-search"></i></button>
+                    </form>
+                </li>
             </ul>
             <div className='mobile-menu'>mobile-menu</div>
         </div>
