@@ -68,6 +68,7 @@
   margin: 0.25em 1em 0 1em;
   font-size: large;
   background-color: inherit;
+  outline: none;
 }
 
 .mobile-logo {
