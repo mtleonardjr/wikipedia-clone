@@ -4,12 +4,23 @@ import './styles/featured.css'
 
 const Featured = () => {
     return (
-        <div className='featured'>
+        <div className='article featured'>
             <h3>From today's featured article</h3>
             <p>
                 <img className='featured-pic' src={pic} alt="featured-pic"/> 
                 <b>Warren G. Harding</b> (1865–1923) was the 29th president of the United States, serving from March 4, 1921, until his death in 1923. A member of the Republican Party, Harding was defeated for Governor of Ohio in 1910, but was elected to the Senate in 1914. He ran for the Republican nomination for president in 1920. Considered a long shot until after the convention began, he was nominated on the tenth ballot. He conducted a front porch campaign, running on the theme of a return to normalcy, and won in a landslide, the first sitting senator to be elected president. He appointed a number of well-regarded figures to his cabinet, including Andrew Mellon at the Treasury Department, Herbert Hoover at Commerce, and Charles Evans Hughes at State. After his death in San Francisco, a number of scandals, including Teapot Dome, came to light, as did his extramarital affair with Nan Britton, eroding his popular regard. Harding was succeeded by Vice President Calvin Coolidge. (Full article...)
             </p>
+            <ul className='article-list'>
+                <li>Recently Featured:</li>
+                <li><a href='#home'>Carmen</a>,</li>
+                <li><a href='#home'>Lionel Matthews</a>,</li>
+                <li><a href='#home'>Interstate 70 in Colorado</a></li>
+            </ul>
+            <ul>
+                <li><a href='#home'><b>Archive</b></a></li>
+                <li><a href='#home'><b>By email</b></a></li>
+                <li><a href='#home'><b>More featured articles</b></a></li>
+            </ul>
             <h3>Did you know ...</h3>
             <ul>
                 <li>... that George Balanchine's ballet The Four Temperaments (production pictured) premiered at a high-school auditorium?</li>

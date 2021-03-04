@@ -1,0 +1,16 @@
+.news-pic {
+  width: 156px;
+  aspect-ratio: auto 156 / 126;
+  height: 126px;
+  float: right;
+}
+
+.news {
+  border: 1px solid #cedff2;
+  background: #f5faff;
+}
+
+.news h3 {
+  background: #cedff2;
+  border: 1px solid #a3b0bf;
+}
